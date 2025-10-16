@@ -30,7 +30,7 @@ const Register = () => {
       setError("password did not match")
       return
     }else if (!passwordRegex.test(password)) {
-      setError("✅One Capital, One Small, one num, one carect");
+      setError("✅One Capital, One Small, one num, one character");
       return
     }
     setError('')

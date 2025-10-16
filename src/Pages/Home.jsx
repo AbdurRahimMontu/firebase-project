@@ -1,9 +1,10 @@
+import { format } from 'date-fns';
 import React from 'react';
 
 const Home = () => {
     return (
         <div>
-            This is Home Page
+            <p> {format(new Date(), "EEEE , dd MMMM yyyy")}</p>
         </div>
     );
 };
