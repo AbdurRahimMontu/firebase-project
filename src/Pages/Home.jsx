@@ -3,8 +3,10 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div>
-            <p> {format(new Date(), "EEEE , dd MMMM yyyy")}</p>
+        <div className='flex justify-between'>
+            <p>Home Page</p>
+            <p> {format(new Date(), "EEEE , dd MMMM yyyy p")}</p>
+            
         </div>
     );
 };
